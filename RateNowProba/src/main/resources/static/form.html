@@ -1,0 +1,15 @@
+<html>
+    <body>
+        <form action="#" th:action="@{/}" th:object="${Chart}" method="post">
+            <table>
+                <tr>
+                    <td>Titulo Grafico:</td>
+                    <td><input type="text" th:field="*{title}" /></td>
+                </tr>
+                <tr>
+                    <td><button type="submit">Submit</button></td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>
